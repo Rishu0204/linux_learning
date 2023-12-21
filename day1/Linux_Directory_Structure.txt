@@ -1,0 +1,51 @@
+LINUX DIRECTORY STRUCTURE
+
+	Understanding the directory structure will help you in the future when you are searching for components on the system. It can help you answer questions like:
+	Where are programs located?
+	Where do configuration files live?
+	Where might I find the log files for this application?
+
+Common Directories
+
+/ :- root directory. It is the starting point for file system hierarchy.
+/bin :- Binaries and other executable programs.
+/etc :- System configuration files.
+/home :- Home directories.
+/opt :- Optional or third party software.
+/tmp :- temporary space, typically cleared on reboot.
+/usr :- User related programs.
+/var :- Variable data, most notably log files.
+
+Comprehensive Directory Listing
+
+/ :- "root" directory. It is the starting point for the file system hierarchy.
+/bin :- Binaries and other executable programs.
+/boot :- Files needed to boot the operating system.
+/cdrom :- Mount point for CD-ROMs.
+/cgroup :- Control Groups hierarchy.
+/dev :- Device files, typically controlled by the operating system and the system administrators.
+/etc :- System configuration files.
+/export :- Shared file systems. Most commonly found on Solaris systems.
+/home :- Home directories.
+/lib ;- System Libraries.
+/lib64 :- System Libraries, 64 bit.
+/opt :- Optional or third party software.
+/root :- The home directory for the root account.
+
+Unix Specific Directories
+
+/devices :- Device files, typically controlled by the operating system and the system administrators.
+/kernel :- Kernel and kernel modules. (Solaris)
+/platform :- Platform specific files. (Solaris)
+/rpool :- ZFS root pool directory. (Solaris)
+/net :- Used to mount external file systems. (HP-UX)
+/nfs4 :- Used to mount the Federated File System domain root. (Solaris)
+/stand :- Files needed to boot HP-UX.
+
+Application Directory Structures
+
+/usr/local/apache/bin :- The application's binaries and other executable programs.
+/usr/local/apache/etc :- Configuration files for the application.
+/opt/apache/bin :- The application's binaries and other executable programs.
+/opt/apache/etc :- Configuration files for the application.
+
