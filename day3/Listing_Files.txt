@@ -1,0 +1,42 @@
+Listing Files And Understanding ls Output
+
+ls -l :- Lists all files in directory in long format.
+
+Example :
+	ls -l
+	-rw-rw-r --1 rishu users 10400 Dec 20 19:31 example.txt
+Here, 
+	Permissions :- -rw-rw-r--
+	Number of links :- 1
+	Owner Name :- rishu
+	Group :- users
+	Number of bytes in the file :- 10400
+	Last modification time :- Dec 20 19:31
+	File Name :- example.txt
+
+ls -a :- Lists all files in directory including hidden files.
+ls -la/ ls -al :- Lists all files in directory including hidden files in long format.
+
+Listing Files By Type
+
+ls -F :- Lists all files in directory by type.
+
+File ending with,
+	/ :- Directory
+	@ :- Link. The file that follows the -> symbol is the target of the link
+	* :- Executable programs
+
+Listing Files By Time And In Reverse Order
+
+ls -t :- List the recently modified file on top.
+
+Listing Files Recursively
+
+ls -R :- Lists all file recursively, i.e lists all the files within the directories.
+We can also the tree command to list contents in tree format.
+
+Listing Files With Color
+
+ls --color :- Distinguish files by different colors.
+
+NOTE:- Try to avoid using spaces in the directory names. Use '-' or '_' instead.
