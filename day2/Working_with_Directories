@@ -1,0 +1,28 @@
+Working With Directories
+
+	Directories are simply containers for files and other directories. They provide a tree like structure for organizing the system.
+
+. :- Current directory.
+.. :- Parent directory.
+/ :- Directory separator.
+
+	We can use cd command to navigate through the directories.
+example: 
+	cd /var/tmp
+	cd /home/gitrepo/linux
+	cd .. :- Takes you to parent directory.
+
+Creating And Removing Directories
+
+mkdir [-p] directory :- Create a directory. Use the -p (parents) option to create intermediate directories.
+
+example:
+	mkdir newdir :- Creates a new directory named newdir
+	mkdir -p newdir/product/reviews :- Creates three directory newdir -> pro	duct -> reviews.
+
+rmdir directory :- Removes empty directory.
+rmdir -rf directory :- Removes directory recursively.
+
+example:
+	rmdir reviews :- Removes directory reviwes
+	rm -rf newdir :- Removes directory newdir and everything in it.  

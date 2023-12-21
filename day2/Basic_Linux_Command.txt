@@ -1,0 +1,18 @@
+Basic Linux Commands
+
+ls :- Lists contents of directory. 
+
+cd [dir] :- Changes the current directory to dir. If executed without specifying a directory, cd changes the current directory to home directory.
+
+pwd :- Displays the working directory.
+
+cat [file] :- Concatenates and displays content of the file.
+
+echo [argument] :- Displays arguments to the screen.
+
+man :- Display the online manual for command.( Type q to exit the page.)
+
+exit :- Exits the shell or current session.
+
+clear :- Clear the screen.
+	
